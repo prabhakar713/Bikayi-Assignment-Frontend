@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="posts.js"></script>
+    <title>Document</title>
+</head>
+
+<body onload="loadPosts()">
+
+    <div class="backgrounds-wrapper">
+        <div class="table-responsive bg-white shadow rounded-sm p-3 pl-4">
+            <div class="font-weight-bold pt-2 pb-2">Fliper</div>
+            <hr />
+            <table id="add-table" class="table table-hover responsive bg-white shadow rounded-sm table-striped">
+                <thead id="column-name">
+                    <tr class="bg-primary">
+                        <th scope="col">
+                            <h4>Year</h4>
+                        </th>
+                        <th scope="col">
+                            <h4>Category</h4>
+                        </th>
+                        <th scope="col">
+                            <h4>Laureate Id</h4>
+                        </th>
+                        <th scope="col">
+                            <h4>Laureate First Name</h4>
+                        </th>
+                        <th scope="col">
+                            <h4>Laureate surname</h4>
+                        </th>
+                        <th scope="col">
+                            <h4>Laureate Motivation</h4>
+                        </th>
+                        <th scope="col">
+                            <h4>Laureate scope</h4>
+                        </th>
+
+                    </tr>
+                </thead>
+                <tbody id="prizes-body"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="posts.js"></script>
+
+</body>
+
+</html>
